@@ -12,10 +12,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     伯牙绝弦又何妨
-zhihu_username:     被子是永恒的温柔
+weibo_username:     jlguochn
+zhihu_username:     jlguochn
 github_username:    jlguochn
-twitter_username:   guojinliag
+twitter_username:   jlguochn
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -48,7 +48,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: JL
+disqus_username: jlguochn
 
 # Netease setttings
 netease_comment: false
@@ -57,11 +57,11 @@ netease_comment: false
 
 # Analytics settings
 # Baidu Analytics 
-# ba_track_id: [your track id]
+ba_track_id: '89f9fd76a675246fae413174aefbbf8d'
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: guojinliag.com
+ga_track_id: 'UA-110544813-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
 
 
 
