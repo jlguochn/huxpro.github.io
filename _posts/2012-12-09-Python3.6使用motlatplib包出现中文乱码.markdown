@@ -7,7 +7,8 @@ author:     "JL"
 header-img: 
 catalog: true
 tags:
-    - 生活
+    - Python
+	- motlatplib
 ---
 使用Python绘图包matplotlib时，无法正常显示中文。
 # 原因
