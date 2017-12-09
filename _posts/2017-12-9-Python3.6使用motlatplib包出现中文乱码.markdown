@@ -1,0 +1,11 @@
+---
+layout:     post
+title:      "Python3.6使用motlatplib包出现中文乱码"
+subtitle:   ""
+date:       2017-12-9 15:24:22
+author:     "JL"
+header-img: 
+catalog: true
+tags:
+    - Python
+---
