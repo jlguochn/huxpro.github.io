@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Python3.6Ê¹ÓÃmotlatplib°ü³öÏÖÖĞÎÄÂÒÂë"
+title:      "Python3.6ä½¿ç”¨motlatplibåŒ…å‡ºç°ä¸­æ–‡ä¹±ç "
 subtitle:   ""
 date:       2017-12-9 15:24:22
 author:     "JL"
@@ -10,25 +10,25 @@ tags:
     - Python
 ---
 
-Ê¹ÓÃPython»æÍ¼°ümatplotlibÊ±£¬ÎŞ·¨Õı³£ÏÔÊ¾ÖĞÎÄ¡£
-# Ô­Òò
-- matplotlib¿âÖĞÄ¬ÈÏÃ»ÓĞÖĞÎÄ×ÖÌå
+ä½¿ç”¨Pythonç»˜å›¾åŒ…matplotlibæ—¶ï¼Œæ— æ³•æ­£å¸¸æ˜¾ç¤ºä¸­æ–‡ã€‚
+# åŸå› 
+- matplotlibåº“ä¸­é»˜è®¤æ²¡æœ‰ä¸­æ–‡å­—ä½“
 
-# ½â¾ö·½Ê½
-## ·½·¨Ò»
-ÔÚ´úÂëÖĞÖ¸¶¨×ÖÌå
+# è§£å†³æ–¹å¼
+## æ–¹æ³•ä¸€
+åœ¨ä»£ç ä¸­æŒ‡å®šå­—ä½“
 ```python
 import matplotlib
 
-#Ö¸¶¨Ä¬ÈÏ×ÖÌå
+#æŒ‡å®šé»˜è®¤å­—ä½“
 matplotlib.rcParams['font.sans-serif'] = ['SimHei']
 matplotlib.rcParams['font.family']='sans-serif'
-#½â¾ö¸ººÅ'-'ÏÔÊ¾Îª·½¿éµÄÎÊÌâ
+#è§£å†³è´Ÿå·'-'æ˜¾ç¤ºä¸ºæ–¹å—çš„é—®é¢˜
 matplotlib.rcParams['axes.unicode_minus'] = False
 ```
-## ·½·¨¶ş
-ĞŞ¸ÄÅäÖÃÎÄ¼ş
-1.  ÕÒµ½²¢±à¼­  ...\Lib\site-packages\matplotlib\mpl-data\matplotlibrc ×¢ÒâmatplotlibrcÊÇÎÄ¼ş¶ø·ÇÄ¿Â¼
-2. ·Ö±ğÕÒµ½font.family¡¢font.sans-serif¡¢axes.unicode_minus£¬È¥µôÇ°ÃæµÄ"#"ºÅ
-3. ÔÚfont.sans-serifÃ°ºÅºóÃæ¼ÓÉÏ"SimHei," £¬×¢Òâ¼Ó¶ººÅÓëºóÃæ¸ô¿ª£¬¶øÇÒÒª¼Óµ½Ã°ºÅºó¶ø²»ÊÇĞĞÄ©
-4. axes.unicode_minus£¬½«True¸ÄÎªFalse£¬½â¾ö¸ººÅ'-'ÏÔÊ¾Îª·½¿éµÄÎÊÌâ
+## æ–¹æ³•äºŒ
+ä¿®æ”¹é…ç½®æ–‡ä»¶
+1.  æ‰¾åˆ°å¹¶ç¼–è¾‘  ...\Lib\site-packages\matplotlib\mpl-data\matplotlibrc æ³¨æ„matplotlibrcæ˜¯æ–‡ä»¶è€Œéç›®å½•
+2. åˆ†åˆ«æ‰¾åˆ°font.familyã€font.sans-serifã€axes.unicode_minusï¼Œå»æ‰å‰é¢çš„"#"å·
+3. åœ¨font.sans-serifå†’å·åé¢åŠ ä¸Š"SimHei," ï¼Œæ³¨æ„åŠ é€—å·ä¸åé¢éš”å¼€ï¼Œè€Œä¸”è¦åŠ åˆ°å†’å·åè€Œä¸æ˜¯è¡Œæœ«
+4. axes.unicode_minusï¼Œå°†Trueæ”¹ä¸ºFalseï¼Œè§£å†³è´Ÿå·'-'æ˜¾ç¤ºä¸ºæ–¹å—çš„é—®é¢˜
