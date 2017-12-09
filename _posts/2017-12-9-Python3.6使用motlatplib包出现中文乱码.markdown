@@ -11,11 +11,11 @@ tags:
 ---
 
 使用Python绘图包matplotlib时，无法正常显示中文。
-# 原因
+## 原因
 - matplotlib库中默认没有中文字体
 
-# 解决方式
-## 方法一
+## 解决方式
+### 方法一
 在代码中指定字体
 ```python
 import matplotlib
@@ -26,7 +26,7 @@ matplotlib.rcParams['font.family']='sans-serif'
 #解决负号'-'显示为方块的问题
 matplotlib.rcParams['axes.unicode_minus'] = False
 ```
-## 方法二
+### 方法二
 修改配置文件
 1.  找到并编辑  ...\Lib\site-packages\matplotlib\mpl-data\matplotlibrc 注意matplotlibrc是文件而非目录
 2. 分别找到font.family、font.sans-serif、axes.unicode_minus，去掉前面的"#"号
