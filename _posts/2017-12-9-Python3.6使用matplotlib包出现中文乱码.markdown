@@ -10,7 +10,7 @@ tags:
     - Python
 ---
 
-###Python3.6使用matplotlib包出现中文乱码
+### Python3.6使用matplotlib包出现中文乱码
 使用Python绘图包matplotlib时，无法正常显示中文。
 #### 原因
 - matplotlib库中默认没有中文字体
